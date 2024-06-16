@@ -2,7 +2,6 @@
 
 This repository contains a React application that allows users to view and manage their stock portfolio diversity.
 
-...
 
 ---
 
