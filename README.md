@@ -32,8 +32,8 @@ cd stock-portfolio-diversity
 npm install axios
 npm install @mui/material @emotion/react @emotion/styled
 npm install
-
-4. **Start the development server:**
+```
+3. **Start the development server:**
  ```bash
 npm start
 The application should now be running on http://localhost:3000.
