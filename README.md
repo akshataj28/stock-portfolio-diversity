@@ -28,6 +28,7 @@ To get a local copy of this project up and running, follow these steps:
 
 2. **Install dependencies:**
 cd stock-portfolio-diversity
+npm install axios
 npm install @mui/material @emotion/react @emotion/styled
 npm install
 
