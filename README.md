@@ -8,6 +8,7 @@ This repository contains a React application that allows users to view and manag
 - Scroll horizontally through the list of stocks.
 - Loading spinner while fetching stock data.
 - Add stocks to a selection.
+- Displays a Diversity Score
 
 ## Technologies Used
 
