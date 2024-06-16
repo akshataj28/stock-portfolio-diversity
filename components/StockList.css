@@ -10,8 +10,8 @@
     gap:50px;
     height: 270px;
     margin: 0 30px;
-    position: relative; /* Make the container position relative for positioning the arrows within it */
-    scroll-behavior: smooth; /* Smooth scrolling effect */
+    position: relative; 
+    scroll-behavior: smooth; 
   }
   .heading2 {
     display: inline-block;
@@ -34,9 +34,9 @@
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
-    white-space: normal; /* Allow wrapping within the block */
-  overflow-wrap: break-word; /* Break words to fit within the bounds */
-  text-align: left; /* Align text to the left */
+    white-space: normal; 
+  overflow-wrap: break-word; 
+  text-align: left;
   }
   .stock-list-item .MuiTypography-body1 {
     font-weight: bold;
@@ -73,14 +73,50 @@
     padding: 10px;
     margin-top: 30px;
     cursor: pointer;
-    z-index: 1; /* Ensure arrows are above the scrolling content */
+    z-index: 1; 
   }
   
   .left-arrow {
-    left: -10px; /* Move slightly outside to be centered on the left */
+    left: -10px; 
   }
   
   .right-arrow {
-    right: -10px; /* Move slightly outside to be centered on the right */
+    right: -10px; 
+  }
+  @media (max-width: 768px) {
+    .selected-stocks-container {
+      overflow-x: auto;
+      flex-wrap: nowrap; 
+      gap: 10px; 
+      height: 180px; 
+      margin: 0 10px; 
+    }
+  
+    .selected-stock-item {
+      width: 100%; 
+      max-width: 400px;
+    }
+    
+    .arrow1 {
+      display: none; 
+    }
+  }
+
+  @media (max-width: 768px) {
+    .stock-list-container {
+      gap: 10px;
+      height: auto; 
+      margin: 0; 
+    }
+  
+    .stock-list-item {
+      width: 100%; 
+      max-width: 400px; 
+      margin: 10px 0; 
+    }
+  
+    .arrow {
+      display: none; 
+    }
   }
   
