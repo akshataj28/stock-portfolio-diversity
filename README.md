@@ -1,6 +1,8 @@
 # Stock Portfolio Diversity
 
 This repository contains a React application that allows users to view and manage their stock portfolio diversity.
+![Stock Portfolio Image](https://github.com/akshataj28/stock-portfolio-diversity/image1.png)
+![Stock Portfolio Image](https://github.com/akshataj28/stock-portfolio-diversity/image2.png)
 
 ## Features
 
