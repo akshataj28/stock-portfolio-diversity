@@ -36,5 +36,6 @@ npm install
 3. **Start the development server:**
  ```bash
 npm start
-The application should now be running on http://localhost:3000.
+```
+The application should now be running on **http://localhost:3000.**
 
