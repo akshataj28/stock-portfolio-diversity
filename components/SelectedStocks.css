@@ -76,15 +76,15 @@
     padding: 10px;
     margin-top: 30px;
     cursor: pointer;
-    z-index: 1; /* Ensure arrows are above the scrolling content */
+    z-index: 1; 
   }
   
   .left-arrow1 {
-    left: -10px; /* Move slightly outside to be centered on the left */
+    left: -10px; 
   }
   
   .right-arrow1 {
-    right: -10px; /* Move slightly outside to be centered on the right */
+    right: -10px; 
   }
   
   .no-stocks-message {
